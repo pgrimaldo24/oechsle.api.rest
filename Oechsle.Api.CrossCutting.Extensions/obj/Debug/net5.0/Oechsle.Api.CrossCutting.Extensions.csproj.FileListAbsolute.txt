@@ -1,0 +1,15 @@
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\bin\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.deps.json
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\bin\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\bin\Debug\net5.0\ref\Oechsle.Api.CrossCutting.Extensions.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\bin\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.pdb
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\bin\Debug\net5.0\Oechsle.Api.CrossCutting.Common.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\bin\Debug\net5.0\Oechsle.Api.CrossCutting.Common.pdb
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.csproj.AssemblyReference.cache
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.AssemblyInfoInputs.cache
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.AssemblyInfo.cs
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.csproj.CoreCompileInputs.cache
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.csproj.CopyComplete
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\ref\Oechsle.Api.CrossCutting.Extensions.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.Extensions\obj\Debug\net5.0\Oechsle.Api.CrossCutting.Extensions.pdb

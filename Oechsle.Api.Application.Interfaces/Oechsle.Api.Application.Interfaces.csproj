@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.Dto\Oechsle.Api.CrossCutting.Dto.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.Domain.Models\Oechsle.Api.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>

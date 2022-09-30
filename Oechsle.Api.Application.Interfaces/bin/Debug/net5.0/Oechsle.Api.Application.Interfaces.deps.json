@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Oechsle.Api.Application.Interfaces/1.0.0": {
+        "dependencies": {
+          "Oechsle.Api.CrossCutting.Dto": "1.0.0",
+          "Oechsle.Api.Domain.Models": "1.0.0"
+        },
+        "runtime": {
+          "Oechsle.Api.Application.Interfaces.dll": {}
+        }
+      },
+      "Oechsle.Api.CrossCutting.Common/1.0.0": {
+        "runtime": {
+          "Oechsle.Api.CrossCutting.Common.dll": {}
+        }
+      },
+      "Oechsle.Api.CrossCutting.Dto/1.0.0": {
+        "dependencies": {
+          "Oechsle.Api.CrossCutting.Common": "1.0.0"
+        },
+        "runtime": {
+          "Oechsle.Api.CrossCutting.Dto.dll": {}
+        }
+      },
+      "Oechsle.Api.Domain.Models/1.0.0": {
+        "runtime": {
+          "Oechsle.Api.Domain.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oechsle.Api.Application.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oechsle.Api.CrossCutting.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oechsle.Api.CrossCutting.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oechsle.Api.Domain.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

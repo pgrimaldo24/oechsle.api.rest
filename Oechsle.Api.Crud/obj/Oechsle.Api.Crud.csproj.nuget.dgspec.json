@@ -1,0 +1,724 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Crud\\Oechsle.Api.Crud.csproj": {}
+  },
+  "projects": {
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Implementations\\Oechsle.Api.Application.Implementations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Implementations\\Oechsle.Api.Application.Implementations.csproj",
+        "projectName": "Oechsle.Api.Application.Implementations",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Implementations\\Oechsle.Api.Application.Implementations.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Implementations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj",
+        "projectName": "Oechsle.Api.Application.Interfaces",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj",
+        "projectName": "Oechsle.Api.CrossCutting.Common",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj",
+        "projectName": "Oechsle.Api.CrossCutting.Dto",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Extensions\\Oechsle.Api.CrossCutting.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Extensions\\Oechsle.Api.CrossCutting.Extensions.csproj",
+        "projectName": "Oechsle.Api.CrossCutting.Extensions",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Extensions\\Oechsle.Api.CrossCutting.Extensions.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj",
+        "projectName": "Oechsle.Api.CrossCutting.IoC",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Crud\\Oechsle.Api.Crud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Crud\\Oechsle.Api.Crud.csproj",
+        "projectName": "Oechsle.Api.Crud",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Crud\\Oechsle.Api.Crud.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Crud\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Implementations\\Oechsle.Api.Application.Implementations.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Implementations\\Oechsle.Api.Application.Implementations.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Extensions\\Oechsle.Api.CrossCutting.Extensions.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Extensions\\Oechsle.Api.CrossCutting.Extensions.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Implementations\\Oechsle.Api.Infraestructure.Implementations.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Implementations\\Oechsle.Api.Infraestructure.Implementations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj",
+        "projectName": "Oechsle.Api.Domain.Models",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Implementations\\Oechsle.Api.Infraestructure.Implementations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Implementations\\Oechsle.Api.Infraestructure.Implementations.csproj",
+        "projectName": "Oechsle.Api.Infraestructure.Implementations",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Implementations\\Oechsle.Api.Infraestructure.Implementations.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Implementations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Application.Interfaces\\Oechsle.Api.Application.Interfaces.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Common\\Oechsle.Api.CrossCutting.Common.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.IoC\\Oechsle.Api.CrossCutting.IoC.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj",
+        "projectName": "Oechsle.Api.Infraestructure.Interfaces",
+        "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\Oechsle.Api.Infraestructure.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pgrimaldo\\.nuget\\packages\\",
+        "outputPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Infraestructure.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pgrimaldo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.CrossCutting.Dto\\Oechsle.Api.CrossCutting.Dto.csproj"
+              },
+              "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj": {
+                "projectPath": "C:\\repository\\Oechsle.Api\\Oechsle.Api.Domain.Models\\Oechsle.Api.Domain.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oechsle.Api.Application.Interfaces\Oechsle.Api.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.Common\Oechsle.Api.CrossCutting.Common.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.Dto\Oechsle.Api.CrossCutting.Dto.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.IoC\Oechsle.Api.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.Domain.Models\Oechsle.Api.Domain.Models.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.Infraestructure.Interfaces\Oechsle.Api.Infraestructure.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

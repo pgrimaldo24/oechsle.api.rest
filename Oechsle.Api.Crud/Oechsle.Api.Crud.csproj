@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oechsle.Api.Application.Implementations\Oechsle.Api.Application.Implementations.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.Application.Interfaces\Oechsle.Api.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.Common\Oechsle.Api.CrossCutting.Common.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.Extensions\Oechsle.Api.CrossCutting.Extensions.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.CrossCutting.IoC\Oechsle.Api.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Oechsle.Api.Infraestructure.Implementations\Oechsle.Api.Infraestructure.Implementations.csproj" />
+  </ItemGroup>
+
+</Project>

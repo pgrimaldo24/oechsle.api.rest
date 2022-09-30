@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Oechsle.Api.CrossCutting.Extensions/1.0.0": {
+        "dependencies": {
+          "Oechsle.Api.CrossCutting.Common": "1.0.0"
+        },
+        "runtime": {
+          "Oechsle.Api.CrossCutting.Extensions.dll": {}
+        }
+      },
+      "Oechsle.Api.CrossCutting.Common/1.0.0": {
+        "runtime": {
+          "Oechsle.Api.CrossCutting.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oechsle.Api.CrossCutting.Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oechsle.Api.CrossCutting.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\bin\Debug\net5.0\Oechsle.Api.Domain.Models.deps.json
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\bin\Debug\net5.0\Oechsle.Api.Domain.Models.dll
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\bin\Debug\net5.0\Oechsle.Api.Domain.Models.pdb
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.csproj.AssemblyReference.cache
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.AssemblyInfoInputs.cache
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.AssemblyInfo.cs
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.csproj.CoreCompileInputs.cache
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.dll
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\Oechsle.Api.Domain.Models.pdb
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\obj\Debug\net5.0\ref\Oechsle.Api.Domain.Models.dll
+C:\repository\Oechsle.Api\Oechsle.Api.Domain.Models\bin\Debug\net5.0\ref\Oechsle.Api.Domain.Models.dll

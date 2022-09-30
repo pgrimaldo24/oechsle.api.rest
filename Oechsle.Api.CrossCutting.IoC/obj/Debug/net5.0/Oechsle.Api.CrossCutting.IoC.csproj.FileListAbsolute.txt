@@ -1,0 +1,12 @@
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\bin\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.deps.json
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\bin\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\bin\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.pdb
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.csproj.AssemblyReference.cache
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.AssemblyInfo.cs
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\Oechsle.Api.CrossCutting.IoC.pdb
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\obj\Debug\net5.0\ref\Oechsle.Api.CrossCutting.IoC.dll
+C:\repository\Oechsle.Api\Oechsle.Api.CrossCutting.IoC\bin\Debug\net5.0\ref\Oechsle.Api.CrossCutting.IoC.dll
