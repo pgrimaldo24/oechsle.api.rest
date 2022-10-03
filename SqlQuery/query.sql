@@ -1,4 +1,4 @@
-create database Employees_
+create database Employees
 go
 
 create table Employees(
